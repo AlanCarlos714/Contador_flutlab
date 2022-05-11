@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
             textTheme: TextTheme(
                 bodyText2: TextStyle(
               color: Colors.red,
-              fontSize: 20,
+              fontSize: 30,
             ))));
   }
 }
