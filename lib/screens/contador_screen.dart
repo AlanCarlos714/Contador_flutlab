@@ -42,6 +42,13 @@ class _ContadorScreen extends State<ContadorScreen> {
                 size: 30,
               )
               ),
+              FloatingActionButton(
+              onPressed: () => setState(()=> contador=0), 
+              child: Icon(
+                Icons.add,
+                size: 30,
+              )
+              ),
         ]
         )
         
