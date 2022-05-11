@@ -4,6 +4,7 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
+    int contador = 0;
     return Scaffold(
         appBar: AppBar(
           title: Text("Flutter AppBar Example"),
