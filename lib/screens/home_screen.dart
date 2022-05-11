@@ -18,9 +18,13 @@ class HomeScreen extends StatelessWidget {
             Text("$contador")
           ],
         )),
-        floatingActionButton: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+        floatingActionButton: Row(
+         mainAxisAlignment: MainAxisAlignment.center, 
+         children: [
           FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+               contador++;
+              },
               child: Icon(
                 Icons.add,
                 size: 30,
