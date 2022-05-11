@@ -14,7 +14,8 @@ class HomeScreen extends StatelessWidget {
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Contador")
+            Text("Contador de clicks:"),
+            Text("$contador")
           ],
         )),
         floatingActionButton: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
