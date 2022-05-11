@@ -24,6 +24,7 @@ class HomeScreen extends StatelessWidget {
           FloatingActionButton(
               onPressed: () {
                contador++;
+               print("Hola soy un contador: $contador");
               },
               child: Icon(
                 Icons.add,
