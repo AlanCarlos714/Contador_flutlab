@@ -19,8 +19,8 @@ class HomeScreen extends StatelessWidget {
           ],
         )),
         floatingActionButton: Row(
-         mainAxisAlignment: MainAxisAlignment.center, 
-         children: [
+         mainAxisAlignment: MainAxisAlignment.center,
+         children:[
           FloatingActionButton(
               onPressed: () {
                contador++;
@@ -29,7 +29,8 @@ class HomeScreen extends StatelessWidget {
               child: Icon(
                 Icons.add,
                 size: 30,
-              )),
-        ]));
+              )
+              ),
+         ]));
   }
 }
